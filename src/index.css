@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+
+  font-family: 'Dosis', sans-serif;
+
+  background-image: url("./booker.jpg");
+  background-size: cover;
+}
+
+.button {
+  color: #ffeebf;
+  background-color: #46494a;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 3px;
+  border:none;
+  font-family: 'Dosis', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-between;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: purple;
+  background-color: #ffeebf;
+  
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.buttonText{
+  padding-left: 30px;
+}
+
+.introSection{
+  background-color: white;
+  opacity:0.7;
+  border-radius: 3px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.introHeader{
+  font-size: 30px;
+}
+
+.introText {
+  font-size: 20px;
+}
+
+.containerHeader{
+  border: none;
+    background-color: purple;
+    color:#ffeebf;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.bookContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #ffffeb;
+  border-radius: 3px;
+  flex-wrap: wrap;
+}
+

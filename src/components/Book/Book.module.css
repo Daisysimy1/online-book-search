@@ -1,0 +1,61 @@
+.Book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    color: #46494a;
+    border: #46494a solid 1px;
+    flex-basis: 25%;
+    
+}
+
+.Book img {
+    height: 200px;
+    max-width: 130px;
+}
+
+.Book button {
+    font-size: 15px;
+}
+
+.title {
+    font-size: 20px;
+    height: 90px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 16px;
+    height: 50px;
+}
+
+.authors {
+    font-size: 19px;
+    height: 60px;
+}
+
+
+.description {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.favoriteBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.favorite {
+    color: #f01111;
+    cursor: pointer;
+}
+
+.notFavorite{
+    color: #b5c4c1;
+    cursor: pointer;
+}
