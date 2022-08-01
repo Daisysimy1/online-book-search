@@ -24,7 +24,7 @@ const Favorites = ({ books }) => {
         <div className={css.Favorites}>
             <div className='introSection'>
                 <h1 className='introHeader'>My saved favorite books</h1>
-                <p className="introText">Here is all your favorite marked books</p>
+                <h1 className='introHeader'>Liked books appear here</h1>
             </div>
             <div className = 'bookContainer'>{bookComponents()}</div>
         </div>
