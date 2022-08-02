@@ -11,8 +11,7 @@ Function of adding Favorite books works, but the program doesn’t yet allow fav
 * Acces to internet 
 * Access to a computer or a mobile phone.
 
-## live-link
-link =[online-book-search.vercel.app]
+
 
 
 
